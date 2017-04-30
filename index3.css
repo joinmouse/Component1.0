@@ -1,0 +1,33 @@
+.layout{
+  margin:0 auto;
+  width: 600px;
+}
+.modal{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  background: rgba(0,0,0,0.4);
+}
+.modal .nice{
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  left:50%;
+  top:50%;
+  width: 600px;
+  transform: translate(-50%,-50%);
+}
+.nice header,.nice footer{
+  background: #009688;
+  color: #fff;
+  padding: 1px 16px;
+}
+.nice main{
+  padding:16px;
+  line-height: 1.5;
+}
+.close{
+  float: right;
+}

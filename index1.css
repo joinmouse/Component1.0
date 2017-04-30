@@ -1,0 +1,27 @@
+.layout{
+  width:600px;
+  margin: 0 auto;
+}
+.box{
+  margin-top:30px;
+  padding:1px 16px;
+  border-radius: 3px;
+  color:#fff;
+  line-height: 1.5;
+}
+.close{
+  float: right;
+}
+
+.box1{
+  background: green;
+}
+.box2{
+      background: blue;
+}
+.box3{
+  background: red;
+}
+.box4{
+  background: orange;
+}

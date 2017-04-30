@@ -1,0 +1,47 @@
+.layout{
+  margin: 0 auto;
+  width: 600px;
+}
+.navbar{
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.navbar:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.navbar>li{
+  float: left;
+  position: relative;
+}
+
+.navbar li a{
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+}
+.navbar li a:hover{
+  background: #ccc;
+  color: #000;
+}
+
+.navbar .child{
+  background: #fff;
+  color: #000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  display: none;
+  left: 0;
+  top: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  min-width: 160px;
+}
+.navbar>li:hover .child{
+  display: block;
+}

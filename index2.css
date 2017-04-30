@@ -1,0 +1,59 @@
+body {
+    font-family: arial;
+}
+.layout {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 16px;
+}
+.card > h2 {
+    background-color: #009688;
+    color: #fff;
+    padding: 15px 16px;
+}
+.card form {
+    margin: 16px;
+}
+.card label {
+    color: #757575;
+    vertical-align: middle;
+}
+.card input[type="text"], .card textarea {
+/*  -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;  */
+    border-color:  #808080;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    display: block;
+    padding: 8px 0;
+    width: 100%;
+}
+.card input[type="text"]:focus, .h-card textarea:focus {
+    outline: medium none;
+}
+.card form > div {
+    margin-top: 16px;
+}
+.card .half {
+    float: left;
+    line-height: 1.4;
+    width: 50%;
+}
+.card input[type="submit"] {
+    background-color: #009688;
+    border: 0 none;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
