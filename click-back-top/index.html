@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>back-top</title>
+  <style>
+    .go-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      border: 1px solid red;
+      border-radius: 2px;
+      padding: 20px;
+    }
+    .btn {
+      height: 2000px;
+    }
+  </style>
+</head>
+<body>
+  <p>JS代码中使用构造函数的方式实现</p>
+  <div class="btn"></div>
+
+  <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    function GoTop(){
+      this.ct = $("body")
+      this.target =  $('<div class="go-top">click me!</div>')
+
+      this.createNode = function(){
+        this.ct.append(this.target)
+      }
+
+      this.bindEvent = function(){
+        var $target = this.target
+        $target.on('click',function(){
+          $(window).scrollTop(0);
+        })
+      }
+    }
+
+    var go = new GoTop();
+    go.createNode();
+    go.bindEvent();
+  </script>
+</body>
+</html>
