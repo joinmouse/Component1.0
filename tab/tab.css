@@ -22,6 +22,9 @@ li {
   padding: 26.5px;
   border-right: 1px solid #ccc;
 }
+.tab-header li.active {
+  color: red;
+}
 
 .tab-content {
   border: 1px solid #000;
