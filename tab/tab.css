@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.tab {
+  margin: 0 auto;
+  width: 300px;
+}
+a{
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.tab-header {
+  border: 1px solid #000;
+  margin-top: 100px;
+} 
+.tab-header li {
+  display: inline-block;
+  padding: 26.5px;
+  border-right: 1px solid #ccc;
+}
+
+.tab-content {
+  border: 1px solid #000;
+  height: 100px;
+}
+.tab-content li {
+  display: none;
+}
+.tab-content li.active {
+  display: block;
+}
