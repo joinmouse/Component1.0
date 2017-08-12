@@ -22,11 +22,7 @@ body {
     color: #757575;
     vertical-align: middle;
 }
-.card input[type="text"], .card textarea {
-/*  -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;  */
+.card input[type="text"], .card textarea { 
     border-color:  #808080;
     border-style: none none solid;
     border-width: medium medium 1px;
