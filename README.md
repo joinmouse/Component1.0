@@ -16,6 +16,3 @@
 一个导航栏UI
 预览：https://joinmouse.github.io/Component1.0/nav/
 
-## tab 
-一个TAB切换 UI
-
